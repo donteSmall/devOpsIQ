@@ -4,7 +4,7 @@ services:
 
   web:
     image: apache
-    build: /var/lib/jenkins/workspace/demojob/
+    build: /var/lib/jenkins/workspace/demoJob/
     container_name: apache_web
     restart: always
     ports:
